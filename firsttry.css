@@ -1,0 +1,71 @@
+@font-face{
+    font-family:black;
+    src:url(../fonts/black.otf)
+}
+
+@font-face{
+    font-family:golden;
+    src:url(../fonts/golden.otf)
+}
+
+@font-face{
+    font-family:neon;
+    src:url(../fonts/neon.otf)
+}
+
+.scrollspy{
+    position: relative;
+
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+.slink a{
+    color:black !important;
+    text-decoration:none !important;
+    padding-top:90px !important;
+
+}
+
+.navbar-brand{
+    font-family:neon !important;
+    font-size:2.5vw !important;
+    color: !important;
+    text-shadow:
+
+
+}
+
+body{
+    height:100% !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+div nav a{
+    color: !important;
+
+
+}
+
+div nav a:hover{
+    text-decoration:underline !important;
+}
+
+
+
+.navbar{
+    background-color: white !important;
+
+
+}
+
+.navbar a{
+
+   color:  !important;
+}
+
+.navbar button .collapsed{
+    color:grey !important;
+}
+
