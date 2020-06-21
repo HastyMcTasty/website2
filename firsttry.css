@@ -1,16 +1,16 @@
 @font-face{
     font-family:black;
-    src:url(black.otf)
+    src:url(../fonts/black.otf)
 }
 
 @font-face{
     font-family:golden;
-    src:url(golden.otf)
+    src:url(../fonts/golden.otf)
 }
 
 @font-face{
     font-family:neon;
-    src:url(neon.otf)
+    src:url(../fonts/neon.otf)
 }
 
 .scrollspy{
@@ -27,19 +27,30 @@
 
 }
 
+.navbar ul a:active{
+    text-decoration:underline !important;
+}
+
 .navbar-brand{
     font-family:neon !important;
     font-size:2.5vw !important;
     color: !important;
-    text-shadow:
+    text-shadow:;
+}
 
-
+nav{
+    text-transform:uppercase !important;
 }
 
 body{
     height:100% !important;
     margin:0 !important;
     padding:0 !important;
+    background-image:url(../images/marble.jpg)
+}
+
+.banner img{
+    padding-top:50px !important;
 }
 
 div nav a{
@@ -69,6 +80,11 @@ div nav a:hover{
     color:grey !important;
 }
 
-.banner img{
-    padding-top:50px !important;
+.about_box{
+    opacity:0.1 !important;
+}
+
+.txt_link{
+    color:#fffff !important;
+
 }
