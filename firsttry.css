@@ -1,16 +1,16 @@
 @font-face{
     font-family:black;
-    src:url(black.otf)
+    src:url(../fonts/black.otf)
 }
 
 @font-face{
     font-family:golden;
-    src:url(golden.otf)
+    src:url(../fonts/golden.otf)
 }
 
 @font-face{
     font-family:neon;
-    src:url(neon.otf)
+    src:url(../fonts/neon.otf)
 }
 
 .scrollspy{
@@ -46,7 +46,7 @@ body{
     height:100% !important;
     margin:0 !important;
     padding:0 !important;
-    background-image:url(marble.jpg)
+    background-image:url(../images/good_marble.png)
 }
 
 .banner img{
@@ -87,4 +87,21 @@ div nav a:hover{
 .txt_link{
     color:#fffff !important;
 
+}
+
+.anibutton {
+  background-color:;
+  transition: 0.3s;
+}
+
+.anibutton:hover {
+  background-color: gray;
+  color: white;
+  border-color:gray;
+}
+
+.modal-body, .modal-header, .modal-footer, hr{
+    background-color:black;
+    border:black;
+    color:white;
 }
