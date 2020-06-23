@@ -1,16 +1,16 @@
 @font-face{
     font-family:black;
-    src:url(../fonts/black.otf)
+    src:url(black.otf)
 }
 
 @font-face{
     font-family:golden;
-    src:url(../fonts/golden.otf)
+    src:url(golden.otf)
 }
 
 @font-face{
     font-family:neon;
-    src:url(../fonts/neon.otf)
+    src:url(/neon.otf)
 }
 
 .scrollspy{
@@ -46,7 +46,7 @@ body{
     height:100% !important;
     margin:0 !important;
     padding:0 !important;
-    background-image:url(../images/good_marble.png)
+    background-image:url(good_marble.png)
 }
 
 .banner img{
