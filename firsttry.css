@@ -1,16 +1,16 @@
 @font-face{
     font-family:black;
-    src:url(black.otf)
+    src:url(../fonts/black.otf)
 }
 
 @font-face{
     font-family:golden;
-    src:url(golden.otf)
+    src:url(../fonts/golden.otf)
 }
 
 @font-face{
     font-family:neon;
-    src:url(/neon.otf)
+    src:url(../fonts/neon.otf)
 }
 
 .scrollspy{
@@ -36,6 +36,15 @@
     font-size:2.5vw !important;
     color: !important;
     text-shadow:;
+
+}
+
+.navbar-brand:hover{
+    text-decoration:none !important;
+}
+
+.navbar-brand a{
+
 }
 
 nav{
@@ -46,7 +55,8 @@ body{
     height:100% !important;
     margin:0 !important;
     padding:0 !important;
-   /* background-image:url(good_marble2.png) */
+   /* background-image:url(../images/good_marble2.png) */
+
 }
 
 .banner img{
@@ -104,4 +114,22 @@ div nav a:hover{
     background-color:black;
     border:black;
     color:white;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .web1, .web2{
+    transition:transform 0.3s;
+
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .web1:hover, .web2:hover{
+    transform:scale(1.05);
+
+}
+
+.img7{
+    transition:transform 0.3s;
+}
+
+.img7:hover{
+    transform:scale(1.3);
 }
