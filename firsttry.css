@@ -90,10 +90,6 @@ div nav a:hover{
     color:grey !important;
 }
 
-.navbar ul a:hover{
-    font-size:18px;
-}
-
 .about_box{
     opacity:0.1 !important;
 }
