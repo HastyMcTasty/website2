@@ -90,7 +90,7 @@ div nav a:hover{
     color:grey !important;
 }
 
-.navbar ul a:active{
+.navbar ul a:hover{
     font-size:18px;
 }
 
