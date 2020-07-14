@@ -1,16 +1,16 @@
 @font-face{
     font-family:black;
-    src:url(black.otf)
+    src:url(../fonts/black.otf)
 }
 
 @font-face{
     font-family:golden;
-    src:url(golden.otf)
+    src:url(../fonts/golden.otf)
 }
 
 @font-face{
     font-family:neon;
-    src:url(neon.otf)
+    src:url(../fonts/neon.otf)
 }
 
 .scrollspy{
@@ -55,7 +55,7 @@ body{
     height:100% !important;
     margin:0 !important;
     padding:0 !important;
-   /* background-image:url(../images/good_marble2.png) */
+    background-image:;
 
 }
 
@@ -89,6 +89,7 @@ div nav a:hover{
 .navbar button .collapsed{
     color:grey !important;
 }
+
 
 .about_box{
     opacity:0.1 !important;
@@ -146,4 +147,8 @@ div nav a:hover{
 
 .modal .custom .modal-dialog{
     max-height:80vh;
+}
+
+html{
+  scroll-behavior: smooth;
 }
